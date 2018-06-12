@@ -16,6 +16,7 @@
 		A0FE97D820CFC50600D3CF91 /* Method_swizzling_runtime____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FE97D720CFC50600D3CF91 /* Method_swizzling_runtime____Tests.m */; };
 		A0FE97E320CFC50600D3CF91 /* Method_swizzling_runtime____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FE97E220CFC50600D3CF91 /* Method_swizzling_runtime____UITests.m */; };
 		A0FE97F220CFC5DA00D3CF91 /* NSURL+SV.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FE97F120CFC5D900D3CF91 /* NSURL+SV.m */; };
+		A0FE97F520CFCB4D00D3CF91 /* UIControl+ActionTimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FE97F420CFCB4D00D3CF91 /* UIControl+ActionTimeInterval.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		A0FE97E420CFC50600D3CF91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0FE97F020CFC5D900D3CF91 /* NSURL+SV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+SV.h"; sourceTree = "<group>"; };
 		A0FE97F120CFC5D900D3CF91 /* NSURL+SV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+SV.m"; sourceTree = "<group>"; };
+		A0FE97F320CFCB4D00D3CF91 /* UIControl+ActionTimeInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+ActionTimeInterval.h"; sourceTree = "<group>"; };
+		A0FE97F420CFCB4D00D3CF91 /* UIControl+ActionTimeInterval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ActionTimeInterval.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				A0FE97BF20CFC50600D3CF91 /* AppDelegate.m */,
 				A0FE97C120CFC50600D3CF91 /* ViewController.h */,
 				A0FE97C220CFC50600D3CF91 /* ViewController.m */,
+				A0FE97F320CFCB4D00D3CF91 /* UIControl+ActionTimeInterval.h */,
+				A0FE97F420CFCB4D00D3CF91 /* UIControl+ActionTimeInterval.m */,
 				A0FE97F020CFC5D900D3CF91 /* NSURL+SV.h */,
 				A0FE97F120CFC5D900D3CF91 /* NSURL+SV.m */,
 				A0FE97C420CFC50600D3CF91 /* Main.storyboard */,
@@ -274,6 +279,7 @@
 				A0FE97F220CFC5DA00D3CF91 /* NSURL+SV.m in Sources */,
 				A0FE97CE20CFC50600D3CF91 /* main.m in Sources */,
 				A0FE97C020CFC50600D3CF91 /* AppDelegate.m in Sources */,
+				A0FE97F520CFCB4D00D3CF91 /* UIControl+ActionTimeInterval.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

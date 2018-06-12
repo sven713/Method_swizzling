@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIControl+ActionTimeInterval.h"
 
 @interface ViewController ()
 
@@ -20,8 +21,20 @@
     NSURL *url = [NSURL URLWithString:@"http:baidu.com/哈哈"]; // 不能带中文,系统方法缺陷
     
     NSLog(@"url:-%@",url);
+    
+    [self setUI];
 }
 
+- (void)setUI {
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:btn];
+    btn.backgroundColor = [UIColor orangeColor];
+    [btn addTarget:self action:@selector(btnClickAction) forControlEvents:UIControlEventTouchUpInside];
+    btn.actionTimeInterval = 2;
+}
 
+- (void)btnClickAction {
+    NSLog(@"点击了按钮");
+}
 
 @end
